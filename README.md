@@ -54,7 +54,7 @@ Give an example
 ``` -->
 
 ## Deployment
-Not deployed --Hosted on [GitHub pages](https://unobtainiumrock.github.io/Basic-portfolio/).
+Not deployed --Hosted on [GitHub pages](https://unobtainiumrock.github.io/Responsive-Portfolio/).
 <!-- Add additional notes about how to deploy this on a live system -->
 
 
