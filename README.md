@@ -1,6 +1,7 @@
-# Basic-portfolio
+# Repsonsive-Portfolio
 
-This is a basic portfolio using 
+This is a responsive portfolio that will react to various user actions such as mouse hovers, mouse clicks, etc.
+This was accomplished without handling the event object or using Jquery. Its solely done using CSS effects.
 
 ## Getting Started
 
