@@ -55,12 +55,12 @@
   margin: 20px;
 }
 
-.full-name {
+.head-thingy {
   font-size: 22px;
   color: slategray;
 }
 
-.hacked-box {
+.mr-box {
   border: solid silver .1px;
   padding: 9px;
 }
