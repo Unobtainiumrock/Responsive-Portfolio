@@ -1,0 +1,10 @@
+
+.container-fluid {
+  width: 100%;
+}
+
+.container-fluid:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -1,0 +1,18 @@
+
+.footer {
+  background-color: gray;
+}
+
+.footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.trademark {
+  display: inline-block;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 15px;
+  color: white;
+  padding: 15px;
+}

@@ -1,0 +1,66 @@
+
+.body {
+  background-color: whitesmoke;
+  min-height: calc(100vh - 70px);
+  margin: 40px auto;
+  margin-bottom: 60px;
+}
+
+.main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bio {
+  display: inline-block;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 25px;
+  color: teal;
+  padding: 20px;
+  margin-left: 20px; 
+  margin-top: 10px;
+}
+
+.bio:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.mini-trim {
+  border: solid silver 1px;
+  margin: 20px;
+}
+
+
+.paragraph-1 {
+  float: right;
+  margin: 40px;
+}
+
+.paragraph-1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.paragraph-2-3 {
+  float: right;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.contact-info {
+  margin: 20px;
+}
+
+.full-name {
+  font-size: 22px;
+  color: slategray;
+}
+
+.hacked-box {
+  border: solid silver .1px;
+  padding: 9px;
+}
