@@ -6,6 +6,12 @@
   margin-bottom: 60px;
 }
 
+.body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .main:after {
   content: "";
   display: table;
@@ -33,6 +39,12 @@
   margin: 20px;
 }
 
+.mini-trim:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 .paragraph-1 {
   float: right;
@@ -51,8 +63,20 @@
   margin-right: 40px;
 }
 
+.paragraph-2-3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .contact-info {
   margin: 20px;
+}
+
+.contact-info:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .head-thingy {
@@ -60,7 +84,64 @@
   color: slategray;
 }
 
+.head-thingy:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .mr-box {
   border: solid silver .1px;
   padding: 9px;
+}
+
+.mr-box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row-2 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin: 1%;
+  /* float: left; */
+}
+
+.blah {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin: 1%;
+}
+
+.blah:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tag {
+  margin: 1%;
+  float: right;
+  position: absolute;
+  left: 28%;
+  top: 87%;
+  z-index: 1000;
+  background-color: #92AD40;
+  padding: 5px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.tag:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.img-row {
+  position: relative;
+  /* size: 500px; */
 }
