@@ -79,69 +79,9 @@
   clear: both;
 }
 
-.head-thingy {
-  font-size: 22px;
-  color: slategray;
-}
-
-.head-thingy:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.mr-box {
-  border: solid silver .1px;
-  padding: 9px;
-}
-
-.mr-box:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.row-2 {
-  width: 200px;
-  height: 200px;
+.item-wrap {
+  float: left;
+  width: 34%;
+  text-align: center;
   position: relative;
-  margin: 1%;
-  /* float: left; */
-}
-
-.blah {
-  width: 200px;
-  height: 200px;
-  position: relative;
-  margin: 1%;
-}
-
-.blah:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.tag {
-  margin: 1%;
-  float: right;
-  position: absolute;
-  left: 28%;
-  top: 87%;
-  z-index: 1000;
-  background-color: #92AD40;
-  padding: 5px;
-  color: #FFFFFF;
-  font-weight: bold;
-}
-
-.tag:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.img-row {
-  position: relative;
-  /* size: 500px; */
 }
