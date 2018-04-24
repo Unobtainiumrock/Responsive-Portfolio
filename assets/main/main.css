@@ -6,17 +6,17 @@
   margin-bottom: 60px;
 }
 
-.body:after {
+/* .body:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
-.main:after {
+/* .main:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 .bio {
   display: inline-block;
@@ -28,11 +28,11 @@
   margin-top: 10px;
 }
 
-.bio:after {
+/* .bio:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 .mini-trim {
   border: solid silver 1px;
