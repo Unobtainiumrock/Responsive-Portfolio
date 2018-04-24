@@ -4,8 +4,7 @@
 // this makes the container size dynamially change to fit whatever screen size.
 $(document).ready(function() {
   $(window).resize(function(e) {
-    var screenSize = document.body.clientWidth;
-
+    var screenSize = document.body.clientWidth > 980? 980 : document.body.clientWidth;
     $('.container').css({
       width: screenSize
     });
