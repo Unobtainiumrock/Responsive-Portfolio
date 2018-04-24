@@ -1,10 +1,10 @@
 
 html { 
   background-image: linear-gradient(87deg,#5fdff0 0,#d8d2af 100%);
-  -webkit-background-size: cover;
+  /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
 }
 
 .flex-box-center {
@@ -34,6 +34,20 @@ html {
   clear: both;
 }
 
-/* @media screen  and (max-width: 980px){
-  
-} */
+@media screen  and (max-width: 980px){
+  .container {
+    width: 640px;
+  }
+}
+
+@media screen  and (max-width: 768px){
+  .container {
+    width: 640px;
+  }
+}
+
+@media screen  and (max-width: 640px){
+  .container {
+    width: 640px;
+  }
+}
