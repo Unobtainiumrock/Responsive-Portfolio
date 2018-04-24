@@ -7,15 +7,31 @@ html {
   background-size: cover;
 }
 
-/* Lazy and hacky way to add margin to images*/
-img {
-  margin: 1%;
-}
-
 .flex-box-center {
   -webkit-box-align:center;
   -webkit-box-pack:center;
   display:-webkit-box;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.container-fluid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width:960px;
+  margin: 0 auto;  
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* @media screen  and (max-width: 980px){
