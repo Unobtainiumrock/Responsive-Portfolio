@@ -34,18 +34,20 @@ html {
   clear: both;
 }
 
+
+/* Computer */
 @media screen  and (max-width: 980px){
-  .container {
-    width: 640px;
-  }
+
 }
 
+
+/* Tablet */
 @media screen  and (max-width: 768px){
-  .container {
-    width: 640px;
-  }
+
 }
 
+
+/* Phone */
 @media screen  and (max-width: 640px){
   .container {
     width: 640px;
