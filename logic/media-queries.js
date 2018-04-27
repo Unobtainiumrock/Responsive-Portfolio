@@ -9,12 +9,29 @@ $(document).ready(function() {
     // Upper bound
     if(screenSize > 980) {
       screenSize = 980;
+      $('#mister-nav').css({
+        "float": "left"
+      });
     }
     // Lower bound
     if(screenSize < 640) {
       screenSize = 640;
+
+      $('#mister-nav').css({
+        "float": "left"
+      });
     }
 
+    if(screenSize > 640 && screenSize < 980) {
+      $('#mister-nav').css({
+        "float": "right"
+      });
+    }
+
+    $('header').css({
+      width: screenSize
+    });
+    
     $('.container').css({
       width: screenSize
     });
